@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif; 
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    border-radius: 8px;
+}
+.nav_bar{
+    background-color: red;
+    overflow: hidden;
+}
+
+.nav_bar a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav_bar a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.nav_bar a.active{
+    background-color: white;
+    color: red;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.credit p{
+    font-size: 15px;
+}
+
+.credit ul{
+    font-size: 10px;
+}
